@@ -1,4 +1,4 @@
-export default [
+const menuItems = [
   {
     path: 'home',
     label: 'HOME',
@@ -32,3 +32,5 @@ export default [
     label: 'TEAM',
   },
 ];
+
+export default menuItems;

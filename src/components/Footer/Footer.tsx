@@ -37,17 +37,17 @@ const Footer = () => {
             </Typography>
           </Grid>
           <Grid item container xs={6} alignItems="center" justifyContent="center">
-            <Image src={FooterMark}/>
+            <Image src={FooterMark} alt="footer-mark"/>
           </Grid>
           <Grid item container xs={3} alignItems="center" justifyContent="center">
             <Grid item xs={4}>
-              <Image src={Discord}/>
+              <Image src={Discord} alt="discord" />
             </Grid>
             <Grid item xs={4}>
-              <Image src={Twitter}/>
+              <Image src={Twitter} alt="twitter"/>
             </Grid>
             <Grid item xs={4}>
-              <Image src={Shape}/>
+              <Image src={Shape} alt="shape"/>
             </Grid>              
           </Grid>
       </Grid>     

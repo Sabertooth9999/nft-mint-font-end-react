@@ -65,7 +65,7 @@ const Navbar = ({ isMobile, handleCloseMenu } : Props) => {
   const getDrawerChoices = () => {
     return menuItems.map(({ label, path }, i) => {
       return (
-         <NavLink key={i} path={path} label={label} isMobile={isMobile} children={undefined} />
+         <NavLink key={i} path={path} label={label} isMobile={isMobile} />
       );
     });
   };
